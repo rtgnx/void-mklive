@@ -1,0 +1,3 @@
+[submodule "void-install"]
+	path = void-install
+	url = https://github.com/rtgnx/void-install
