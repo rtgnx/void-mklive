@@ -240,7 +240,7 @@ passwd --root /mnt <<EOF
 $ROOT_PASSPHRASE
 $ROOT_PASSPHRASE
 EOF
-exit 1;
+
 chmod +x /mnt/bin/post-install.sh
 xchroot /mnt /bin/post-install.sh
 rm -rf /bin/post-install.sh
